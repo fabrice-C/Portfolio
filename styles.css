@@ -1,0 +1,374 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+h1 {
+    text-align:center;
+    background-color: #3b3a30;
+    color:White;
+}
+
+h2 {
+  color: rgb(0, 0, 230);
+}
+
+body {
+  color:white;
+  background:#5ed6c6;
+  background-size: cover;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration:underline;
+  color:white;
+  font-family: 'Comfortaa', cursive;
+}
+
+a:hover {
+  color:#3b3a30;
+  background-color: #c0ded9;
+}
+
+a:active{
+  color:#c0ded9;
+  background-color: #3b3a30;
+  text-decoration:underline;
+}
+
+a:link{
+  font-weight: bold;
+  font-style: normal;
+}
+
+a:visited{
+  font-weight: bold;
+  font-style: normal;
+  text-decoration:underline;
+}
+
+.Hover_intro{
+  text-decoration:none;
+  font-style:italic;
+  color:#c0ded9;
+}
+
+.post_a {
+  color:#3b3a30;
+  background:#c0ded9;
+  font-family:'Playfair Display', serif;
+  padding:3px;
+  line-height: 2em;
+  text-align:justify;
+}
+
+#box_img{
+  border-radius: 25px;
+  background: white;
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding: 15px;
+  width: 280px;
+  height: 300px;
+  box-shadow: 10px 10px #c0ded9;
+}
+
+.post_sommaire {
+    color:white;
+    background:#3b3a30;
+    font-size: 16px;
+    font-family: 'Comfortaa', cursive;
+    padding:3px;
+    line-height: 2em;
+    text-align:left;
+}
+
+.copyright{
+    text-align: right;
+    background-color: #3b3a30;
+    color: white;
+    padding: 3px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8em;
+    border-bottom: 2px solid #b2c2bf;
+  }
+
+.tableau_cl{
+  font-family: 'Comfortaa', cursive;
+  font-size: 13px;
+  font-style:italic;
+}
+
+.tableau_li{
+  line-height: 1,5em;
+  column-width:auto;
+  text-align: left;
+  border-style: ridge;
+}
+
+.second_table {
+  color:#3b3a30;
+  background:#c0ded9;
+  /* Original */
+  float: right;
+  width: 44%;
+  margin-left: 10px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  padding:10px;
+  text-align:left;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.third_table {
+    color:#3b3a30;
+    background:#c0ded9;
+    float: left;
+    width: 43%;
+    margin-left: 10px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    padding:10px;
+    text-align:left;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.post {
+    background-color: #b2c2bf;
+    font-family: 'Playfair Display', serif;
+    font-style:italic;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.post_table {
+    background-color: #b2c2bf;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2em;
+    text-align: center;
+    color:#3b3a30;
+}
+
+.post_tabletr {
+    background-color: #3b3a30;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2em;
+    text-align: Left;
+    color:#b2c2bf;
+}
+
+.post_tabletrC {
+    background-color: #3b3a30;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2em;
+    text-align: center;
+    color:#b2c2bf;
+}
+
+.post_balise {
+    text-align: right;
+}
+
+.post_fiche {
+    text-align: left;
+}
+
+.post2 {
+    background-color: #3b3a30;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2em;
+    text-align: center;
+}
+
+.introA {
+    font-size: 2em;
+    line-height:1.5em;
+    text-align: left;
+    font-weight: bold;
+    color:#c0ded9;
+}
+
+.introB {
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: bold;
+}
+
+.introC {
+    font-size: 1.5em;
+    line-height:1.5em;
+    text-align: left;
+    font-weight: bold;
+}
+
+.introD {
+    font-size: 16px;
+    line-height:1,5em;
+    text-align: left;
+}
+
+/* Beginning top menu navigation responsive */
+.topnav {
+    overflow: hidden;
+    background-color: #c0ded9;
+    color:#3b3a30;
+    position: fixed;/*Menu fixed on top*/
+    top: 0;
+    right:10px;
+    left:15px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #3b3a30;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: c0ded9;
+}
+
+.topnav a.active {
+    background-color: #b2c2bf;
+    color: #3b3a30;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+}
+
+.topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;height:95vh;}
+    .col-13 {width: 100%;height:210vh;}
+    .col-14 {width: 100%;height:50px;}
+}
+
+#imgFCCircle{
+  border-radius: 50%;
+}
+
+#imgMenuCircle{
+  border-radius: 50%;
+  box-shadow: 10px 10px #000000;
+}
+
+.imglogo{
+  margin-top:12.5%;
+  box-shadow: 10px 10px #000000;
+}
